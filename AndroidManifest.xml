@@ -1,0 +1,24 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="org.omnirom.daylightheader"
+	android:versionCode="1"
+	android:versionName="1.0" >
+
+	<uses-sdk
+		android:minSdkVersion="8"
+		android:targetSdkVersion="21" />
+
+	<application
+		android:allowBackup="false"
+		android:label="DaylightHeaderSample" >
+		<activity
+			android:name=".DaylightHeaderSample"
+			android:label="Sample" >
+			<intent-filter>
+				<action android:name="org.omnirom.DaylightHeaderPack" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+	</application>
+
+</manifest>
