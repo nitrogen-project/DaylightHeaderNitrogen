@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-	package="org.omnirom.daylightheader"
+	package="org.nitrogen.daylightheader"
 	android:versionCode="1"
 	android:versionName="1.0" >
 
@@ -9,10 +9,10 @@
 
 	<application
 		android:allowBackup="false"
-		android:label="DaylightHeaderSample" >
+		android:label="DaylightHeaderNitrogen" >
 		<activity
-			android:name=".DaylightHeaderSample"
-			android:label="Sample" >
+			android:name=".DaylightHeaderNitrogen"
+			android:label="@string/header_pack_label" >
 			<intent-filter>
 				<action android:name="org.omnirom.DaylightHeaderPack" />
 

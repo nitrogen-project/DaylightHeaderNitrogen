@@ -26,6 +26,6 @@ day_header entries have a higher priority then hour entries -->
     <hour_header hour="13" image="notifhead_afternoon" />
     <hour_header hour="19" image="notifhead_sunset" />
     <hour_header hour="21" image="notifhead_night" />
-    <day_header day="25" month="12" image="notifhead_christmas" />
+    <day_header day="7" month="1" image="notifhead_christmas" />
     <day_header day="31" month="12" image="notifhead_newyearseve" />
 </daylight_headers>
