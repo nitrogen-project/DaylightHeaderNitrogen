@@ -11,14 +11,24 @@
 		android:allowBackup="false"
 		android:label="DaylightHeaderNitrogen" >
 		<activity
-			android:name=".DaylightHeaderNitrogen"
-			android:label="@string/header_pack_label" >
+			android:name=".nitrogen"
+			android:label="@string/header_pack_label1" >
 			<intent-filter>
-				<action android:name="org.omnirom.DaylightHeaderPack" />
+				<action android:name="org.omnirom.DaylightHeaderPack1" />
 
 				<category android:name="android.intent.category.DEFAULT" />
 			</intent-filter>
 		</activity>
+		<activity
+			android:name=".poly"
+			android:label="@string/header_pack_label2" >
+			<intent-filter>
+				<action android:name="org.omnirom.DaylightHeaderPack1" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
 	</application>
 
 </manifest>
