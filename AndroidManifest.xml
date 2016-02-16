@@ -29,6 +29,26 @@
 			</intent-filter>
 		</activity>
 
+                <activity
+                        android:name=".nature"
+                        android:label="@string/header_pack_label3" >
+                        <intent-filter>
+                                <action android:name="org.omnirom.DaylightHeaderPack1" />
+
+                                <category android:name="android.intent.category.DEFAULT" />
+                        </intent-filter>
+                </activity>
+
+                <activity
+                        android:name=".naturerandom"
+                        android:label="@string/header_pack_label4" >
+                        <intent-filter>
+                                <action android:name="org.omnirom.DaylightHeaderPack1" />
+
+                                <category android:name="android.intent.category.DEFAULT" />
+                        </intent-filter>
+                </activity>
+
 	</application>
 
 </manifest>
