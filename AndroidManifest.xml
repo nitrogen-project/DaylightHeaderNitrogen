@@ -49,6 +49,16 @@
                         </intent-filter>
                 </activity>
 
+                <activity
+                        android:name=".screwd"
+                        android:label="@string/header_pack_label5" >
+                        <intent-filter>
+                                <action android:name="org.omnirom.DaylightHeaderPack1" />
+
+                                <category android:name="android.intent.category.DEFAULT" />
+                        </intent-filter>
+                </activity>
+
 	</application>
 
 </manifest>
