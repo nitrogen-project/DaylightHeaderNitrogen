@@ -21,4 +21,10 @@
     <hour_header hour="13" image="poly_notifhead_afternoon" />
     <hour_header hour="19" image="poly_notifhead_sunset" />
     <hour_header hour="21" image="poly_notifhead_night" />
+    <day_header day="7" month="1" image="notifhead_christmas" />
+    <day_header day="14" month="2" image="notifhead_14feb" />
+    <day_header day="23" month="2" image="notifhead_23feb" />
+    <day_header day="8" month="3" image="notifhead_8march" />
+    <day_header day="9" month="5" image="notifhead_9may" />
+    <day_header day="31" month="12" image="notifhead_newyearseve" />
 </daylight_headers>
