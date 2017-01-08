@@ -59,6 +59,15 @@
                         </intent-filter>
                 </activity>
 
+                <activity
+                        android:name=".wavvy"
+                        android:label="@string/header_pack_label6" >
+                        <intent-filter>
+                                <action android:name="org.omnirom.DaylightHeaderPack1" />
+
+                                <category android:name="android.intent.category.DEFAULT" />
+                        </intent-filter>
+                </activity>
 	</application>
 
 </manifest>
