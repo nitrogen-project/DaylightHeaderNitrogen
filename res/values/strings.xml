@@ -6,4 +6,6 @@
     <string name="header_pack_label4">Nature (random)</string>
     <string name="header_pack_label5">Screwd</string>
     <string name="header_pack_label6">Wavvy by Travis Hall</string>
+    <string name="browse_header">Headers</string>
+    <string name="custom_header_image_notice">Header image set</string>
 </resources>

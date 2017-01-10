@@ -3,13 +3,25 @@
 	android:versionCode="1"
 	android:versionName="1.0" >
 
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
 	<uses-sdk
-		android:minSdkVersion="8"
-		android:targetSdkVersion="21" />
+		android:minSdkVersion="24"
+		android:targetSdkVersion="24" />
 
 	<application
 		android:allowBackup="false"
 		android:label="DaylightHeaderNitrogen" >
+		<activity
+			android:name=".BrowseHeaderActivity"
+			android:label="@string/browse_header"
+			android:theme="@android:style/Theme.Material.Settings" >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
 		<activity
 			android:name=".nitrogen"
 			android:label="@string/header_pack_label1" >
