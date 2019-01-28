@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DaylightHeaderNitrogen</string>
+    <string name="header_pack_label1">Nitrogen</string>
+    <string name="header_pack_label2">jezebelxxx 樣式</string>
+    <string name="header_pack_label3">自然</string>
+    <string name="header_pack_label4">自然（隨機）</string>
+    <string name="header_pack_label5">Screwd</string>
+    <string name="header_pack_label6">Wavvy by Travis Hall</string>
+    <string name="browse_header">標題</string>
+    <string name="custom_header_image_notice">標題圖片設定</string>
+</resources>
